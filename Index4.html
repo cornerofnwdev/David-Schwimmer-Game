@@ -1,0 +1,138 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="script2.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Chewy" rel="stylesheet">
+  <link rel="stylesheet" href="style4.css">
+  <title>What's Eating David Schwimmer?</title>
+</head>
+<body>
+<div class="Content">
+	<div class="Title">
+		<div class="gameTitle"><h1>What's eating you David Schwimmer?</h1>
+		<img class="titleDavid" src="images/David2.jpg"/></div>
+		<div class="Menu">
+			<div class="Score"> <h2>SCORE BOARD :</h2>
+		 	</div>
+			<div id="pointScore"><h3>0</h3></div>
+			<button onclick="playAudio()" id="button" type="button">
+			MUSIC.</button>
+			<button onclick="startGame()" class= "button-3" type="button">START.</button>
+			<button onclick="restartFunction()" class= "button-2" type="button"> RESTART GAME</button>
+			<button onclick="pauseAudio()" id="button4" type="button">PAUSE.</button>
+			<div class="lifeDavids">
+			<h3>David Schwimmer Lives</h3>
+				<div class="lifeDavid-1"></div>
+				<div class="lifeDavid-2"></div>
+				<div class="lifeDavid-3"></div>
+			</div>
+				<audio id="audio1">
+					<source src="themeSong.mp3" type="audio/mp3">
+				</audio>
+		</div>
+	</div>
+	<div class="Arena">
+			<div class="icons">
+			<div class="Pizza-1">
+				<div class="boxPizza-1"></div>
+			</div>
+			<div class="Money-1">
+				<div class="boxMoney"></div>
+			</div>
+			<div class="Ice-Cream-2">
+				<div class="boxIce-Cream-2"></div>
+			</div>
+			<div class="Ice-Cream-1">
+				<div class="boxIce-Cream-1"></div>
+			</div>
+			<div class="Pizza-2">
+				<div class="boxPizza-2"></div>
+			</div>
+			<div class="Sandwich-1">
+				<div class="boxSandwich-1"></div>
+			</div>
+			<div class="Sandwich-2">
+				<div class="boxSandwich-2"></div>
+			</div>
+			<div class="Spaghetti-1">
+				<div class="boxSpaghetti-1"></div>
+			</div>
+			<div class="Spaghetti-2">
+				<div class="boxSpaghetti-2"></div>
+			</div>
+			<div class="Spaghetti-3">
+				<div class="boxSpaghetti-3"></div>
+			</div>
+			<img class="Broccoli" src="images/Broccoli.jpg"/>
+			<img class="OJ" src="images/OJ.jpg"/>
+			<img class="OJ-2" src="images/OJ.jpg"/>
+			<img class="Fish" src="images/fish.jpg"/>
+			<img class="Fish-2" src="images/fish.jpg"/>
+			<img class="Fish-3" src="images/fish.jpg"/>
+			<img class="Hotdog" src="images/Hotdog.jpg"/>
+			<img class="Hotdog-2" src="images/Hotdog.jpg"/>
+			<img class="Hotdog-3" src="images/Hotdog.jpg"/>
+			<img class="Trash" src="images/Trash.jpg"/>
+			<img class="Trash-2" src="images/Trash.jpg"/>
+			<img class="Burger-1" src="images/Burger.jpg"/>
+			<img class="Burger-2" src="images/Burger.jpg"/>
+			<img class="Burger-3" src="images/Burger.jpg"/>
+			<img class="Jennifer" src="images/Jennifer.jpg"/>
+			<img class="Jennifer-2" src="images/Jennifer2.jpg"/>
+			<img class="Jennifer-3" src="images/Jennifer3.jpg"/>
+			</div>
+			<div class="Loading"></div>
+		<div class="hiddenPoint-1"> <h1>5 POINTS!</h1></div>
+		<div class="hiddenPoint-3"><h1>-25 POINTS!</h1></div>
+		<div class="hiddenPoint-2"><h1>10 POINTS!</h1></div>
+		<div class="hiddenPoint-4"><h1> -1 LIFE!</h1></div>
+		<div class="hiddenPoint-5"><h1>25 POINTS!</h1></div>
+		<div class="gameOver"><h1>GAME OVER!!!</h1></div>
+		<div class="Home">	
+			<div class="David">
+				<div class="hiddenDavid"></div>
+				<div class="hiddenDavid-2"></div>
+				<div class="hiddenDavid-3"></div>
+				<div class="hiddenDavid-4"></div>
+				<div class="hiddenDavid-5"></div>
+				<div class="hiddenDavid-6"></div>
+				<div class="hiddenDavid-7"></div>
+				<div class="hiddenDavid-8"></div>
+				<div class="box1"></div>
+			</div>
+		</div>
+	</div>
+	<div class="rulesBoard">
+		<div class="ruleTitle">
+		<h1 > Rules and Regulations</h1>
+		</div>
+		<div class="ruleContent">
+			<div class="instructionTitle">
+			<p>The time, 12:00pm. The day, Tuesday.<h3>David Schwimmer is hungry.</h3>  Help David fan the flames of his ravenous hunger by feeding him his favorire fast foods.  But be wary in David's hunger lust he can confuse trash for food and this can hurt the David.  Also be careful of Jennifer Aniston who can deplete the life strength of David and his apetite. </p>
+			</div>
+			<div class="ruleIcons">
+			<img class="ojInfo" src="images/OJ.jpg"/>
+			<img class="moneyInfo" src="images/Money.jpg"/>
+			<p> +25 points</p>
+			<img class="sandwichInfo" src="images/Sandwich.jpg"/>
+			<img class="icecreamInfo" src="images/Ice-Cream.jpg"/>
+			<img class="pizzaInfo" src="images/Pizza.jpg"/>
+			<p> +10 points.</p>
+			<img class="burgerInfo" src="images/Burger.jpg"/>
+			<img class="hotdogInfo" src="images/Hotdog.jpg"/>
+			<img class="spaghettiInfo" src="images/Spaghetti.jpg"/>
+			<p>+5 points</p>
+			<img class="trashInfo" src="images/Trash.jpg"/>
+			<img class="fishInfo" src="images/fish.jpg"/>
+			<img class="broccoliInfo" src="images/Broccoli.jpg"/>
+			<p>-25 points</p>
+			<img class="jenniferInfo" src="images/Jennifer.jpg"/>
+			<img class="jenniferInfo-2" src="images/Jennifer2.jpg"/>
+			<img class="jenniferInfo-3" src="images/Jennifer3.jpg"/>
+			<p>-1 David Schwimmer Life</p>
+			</div>
+		</div>	
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,537 @@
+body{
+	background-color: black;
+}
+.Score{
+	background-color: #90EE90;
+	position: relative;
+	display: inline-block;
+	left: 10px;
+	top: 5px;
+	width: 210px;
+	height: 70px;
+	text-align: center;
+	border: 2px solid white;
+	font-family: 'Bangers', cursive;
+	font-size: 25px;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+	
+}
+.hiddenPoint-1, .hiddenPoint-2, .hiddenPoint-3, .hiddenPoint-4, .hiddenPoint-5{
+	position: absolute;
+	display: inline-block;
+	height: 60px;
+	width: 250px;
+	font-size: 30px;
+	top: 100px;
+	left: 340px;
+	font-family: 'Bangers', cursive;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;	
+}
+.gameOver{
+	position: absolute;
+	display: inline-block;
+	height: 250px;
+	width: 600px;
+	font-size: 50px;
+	top: 400px;
+	left: 200px;
+	font-family: 'Bangers', cursive;
+	color:#8B0000;
+	-webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
+#pointScore{
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	left: 10px;
+	top: 10px;
+	height: 50px;
+	text-align: center;
+	width: 210px;
+	height: 50px;
+	font-family: 'Bangers', cursive;
+	font-size: 20px;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   border: 2px solid black;
+
+}
+.lifeDavids{
+	width: 210px;
+	height: 198px;
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Bangers', cursive;
+	color: white;
+	text-decoration: underline;
+	left: 10px;
+	top: 145px;
+	background-color: #90EE90;
+	border: 2px solid white;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+.lifeDavid-1,.lifeDavid-2, .lifeDavid-3{
+	background-image:url('images/lifeDavid.jpg');
+	top: -5px;
+	height: 75px;
+	width: 60px;
+	display: inline-block;
+	position: relative;
+	-webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+	
+}
+.Arena{
+	position: relative;
+	height: 993px;
+	width: 850px;
+	border: 4px solid white;
+	background-color: white;
+	background-image:url('images/cloud.jpg');
+	display:inline-block;
+	left: 20px;
+	overflow: hidden;
+}
+
+.rulesBoard{
+	position: relative;
+	height:990px;
+	width: 410px;
+	background-color: #FF8C00;
+	display: inline-block;
+	float: right;
+	right: 5px;
+	border: 2px solid white;
+}
+.ruleTitle{
+	position: relative;
+	height: 100px;
+	width: 390px;
+	display: inline-block;
+	float: right;
+	border: 2px solid white;
+	right: 8px;
+	top: 5px;
+	background-color: #6495ED;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+	font-size: 23px;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: black;
+}
+.ruleContent{
+	position: relative;
+	height: 859px;
+	width: 390px;
+	display: inline-block;
+	text-align: center;
+	background-color: #6485ED;
+	border: 2px solid white;
+	font-size: 19px;
+	left: 8px;
+	top: 15px;
+}
+.instructionTitle{
+	height: 215px;
+	width: 375px;
+	background-color: #90EE90;
+	position: relative;
+	display: inline-block;
+	font-family: 'Chewy', cursive;
+	font-size: 20px;
+	top: 3px;
+	text-align: center;
+	border: 2px solid white;
+	overflow: scroll;
+}
+.ruleIcons{
+	top: 230px;
+	left: 85px;
+	height: 620px;
+	width: 225px;
+	font-family: 'Chewy', cursive;
+	display: inline-block;
+	position: absolute;
+	background-color: #90EE90;
+	border: 2px solid white;
+	font-size: 17px;
+	
+
+}
+.jenniferInfo-3, .jenniferInfo-2, .moneyInfo, .burgerInfo, .trashInfo, .hotdogInfo, .fishInfo, .ojInfo, .broccoliInfo, .icecreamInfo, .pizzaInfo, .spaghettiInfo, .moneyInfo{
+	top: 5px;
+	position: relative;
+	display: inline-block;
+	z-index: 4;
+}
+#button4{
+position:relative;
+display: inline-block;
+float: left;
+top: 310px;
+left: 45px;
+font-family: 'Bangers', cursive;
+width: 150px;
+height: 40px;
+font-size: 25px;
+border: 3px solid white;
+}
+#button{
+	position: relative;
+	display: inline-block;
+	float: left;
+	top: 380px;
+	left: 45px;
+	font-family:'Bangers', cursive;
+	width: 150px;
+	height: 40px;
+	font-size: 25px;
+	border: 3px solid white;
+}
+.button-2{
+	position: relative;
+	display: inline-block;
+	float: left;
+	top: 250px;
+	font-family: 'Bangers', cursive;
+	left: 45px;
+	width: 150px;
+	height: 40px;
+	font-size: 25px;
+	border: 3px solid white;
+}
+.button-3{
+	position: relative;
+	display: inline-block;
+	float:left;
+	font-family: 'Bangers', cursive;
+	width: 150px;
+	height: 40px;
+	top: 242px;
+	left: 45px;
+	font-size: 25px;
+	border: 3px solid white;
+}
+.Title{
+	height: 990px;
+	width:269px;
+	background-color: #FF8C00;
+	float: left;
+	margin-left: 18px;
+	left: 30px;
+	display: inline-block;
+	border: 2px solid white;
+
+}
+.Menu{
+	position: relative;
+	height: 610px;
+	width: 230px;
+	display: inline-block;
+	background-color: #6485ED;
+	border: 2px solid white;
+	left: 15px;
+	top: 15px;
+}
+.Content{
+	width: 1600px;
+	height: 1000px;
+	border: 3px solid  #FF8C00;
+	position:relative;
+	margin: 50px auto 50px auto;
+}
+.gameTitle{
+	height: 350px;
+	width: 232;
+	background-color: #6495ED;
+	position:relative;
+	display: inline-block;
+	border: 2px solid white;
+	left: 12px;
+	top: 5px;
+	font-family: 'Bangers', cursive;
+	font-size: 23px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+.titleDavid{
+	margin-top: -35px;
+}
+.Home{
+	position: relative;
+	top: 92px;
+	width:850px;
+	height:200px;
+	background-color: orange;
+	margin-top: 700px;
+	background-image:url('images/brick.jpg');
+	
+}
+.David{
+	display:inline-block;
+	margin:auto;
+	position:relative;
+	height: 200px;
+	width: 250px;
+	background-image:url('images/David.jpg');
+	background-repeat: no-repeat;
+	
+}
+.hiddenDavid{
+	height: 200px;
+	width: 250px;
+	z-index: 1;
+	background-image:url('images/whiteDavid.jpg');
+}
+.hiddenDavid-2{
+	height: 200px;
+	width: 250px;
+	z-index: 1;
+	background-image:url('images/redDavid.jpg');
+}
+.hiddenDavid-3{
+	height: 200px;
+	width: 250px;
+	z-index: 1;
+	background-image:url('images/yellowDavid.jpg');
+}
+.hiddenDavid-4{
+	height: 200px;
+	width: 250px;
+	z-index: 1;
+	background-image: url('images/orangeDavid.jpg');
+}
+.hiddenDavid-5{
+	height: 200px;
+	width: 250px;
+	z-index: 1;
+	background-image: url('images/blueDavid.jpg');
+}
+.hiddenDavid-6{
+	height: 200px;
+	width: 250px;
+	z-index: 1;
+	background-image: url('images/blackDavid.jpg');
+}
+.hiddenDavid-7{
+	height: 200px;
+	width: 250px;
+	z-index: 1;
+	background-image: url('images/brownDavid.jpg');
+}
+.hiddenDavid-8{
+	height: 200px;
+	width: 250px;
+	z-index: 1;
+	background-image: url('images/dogDavid.jpg');
+}
+.box1{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	margin: 0px auto 0px auto;
+	left: 60px;
+	top: 85px;
+	
+
+}
+.boxPizza-1, .boxPizza-2{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 11px;
+	top: 10px;
+}
+.boxMoney{
+	height:30px;
+	width: 30px;
+	position: absolute;
+	top: 10px;
+	left: 9px;
+
+}
+.boxIce-Cream-2, .boxIce-Cream-1{
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+}
+.boxSandwich-1, .boxSandwich-2{
+	height: 40px;
+	width: 50px;
+	position: absolute;
+	left: 10px;
+	top: 2px;
+}
+.boxSpaghetti-1, .boxSpaghetti-2, .boxSpaghetti-3{
+	height: 35px;
+	width: 50px;
+	position: absolute;
+	left: 5px;
+	top: 9px;
+}
+.Loading{
+	width: 99.5%;
+	height: 90px;
+	background-image:url('images/Shingles.jpg');
+	border: 2px solid;
+	position: absolute;
+	z-index: 10;
+	
+}
+.Jennifer-3, .Jennifer-2, .Jennifer, .Burger-1, .Burger-2, .Burger-3, .Trash, .Trash-2, .Hotdog, .Hotdog-2, .Hotdog-3, .Fish, .Fish-2, .Fish-3, .OJ-2, .OJ, .Broccoli, .Pizza-1, .Pizza-2, .Money-1, .Ice-Cream-1, .Ice-Cream-2, .Spaghetti-1, .Spaghetti-2, .Spaghetti-3, .Sandwich-1, .Sandwich-2{
+	position: absolute;
+	z-index: 1;
+}
+.Jennifer{
+	left: 425px;
+}
+.Jennifer-2{
+	left: 675px;
+}
+.Jennifer-3{
+	left: 250px;
+}
+.Trash{
+	left: 25px;
+}
+
+.Trash-2{
+	left: 625px;
+}
+
+.Hotdog-3{
+	left:800px;
+}
+.Hotdog-2{
+	left:235px;
+}
+.Hotdog{
+	left: 425px;
+}
+.Pizza-1{
+	left: 200px;
+	background-image: url('images/Pizza.jpg');
+	height: 75px;
+	width: 75px;
+	background-repeat: no-repeat;
+	margin: auto;
+
+}
+.Pizza-2{
+	left: 650px;
+	background-image: url('images/Pizza.jpg');
+	height: 75px;
+	width: 75px;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.Money-1{
+	left: 400px;
+	background-image: url('images/Money.jpg');
+	height: 50px;
+	width: 50px;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.Ice-Cream-2{
+	left: 300px;
+	background-image: url('images/Ice-Cream.jpg');
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 30px;
+	margin: auto;
+}
+.Ice-Cream-1{
+	left: 800px;
+	background-image: url('images/Ice-Cream.jpg');
+	height: 40px;
+	width: 30px;
+	margin: auto;
+	background-repeat: no-repeat;
+}
+.Spaghetti-1{
+	left: 10px;
+	background-image: url('images/Spaghetti.jpg');
+	background-repeat: no-repeat;
+	margin: auto;
+	height: 60px;
+	width: 60px;
+
+}
+.Spaghetti-2{
+	left: 740px;
+	background-image: url('images/Spaghetti.jpg');
+	background-repeat: no-repeat;
+	margin: auto;
+	height: 60px;
+	width: 60px;
+}
+.Spaghetti-3{
+	left: 575px;
+	background-image: url('images/Spaghetti.jpg');
+	background-repeat: no-repeat;
+	margin: auto;
+	height: 60px;
+	width: 60px;
+}
+.Sandwich-2{
+	left: 100px;
+	background-image: url('images/Sandwich.jpg');
+	height: 50px;
+	width: 75px;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.Sandwich-1{
+	left: 475px;
+	background-image: url('images/Sandwich.jpg');
+	height: 50px;
+	width: 75px;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.Broccoli{
+	left: 345px;
+}
+.OJ{
+	left: 700px;
+}
+.OJ-2{
+	left: 125px;
+}
+.Fish{
+	left: 50px;
+}
+.Fish-2{
+	left: 625px;
+}
+.Fish-3{
+	left: 375px;
+}
+.Burger-1{
+	left: 320px;
+}
+.Burger-2{
+	left: 500px;
+}
+.Burger-3{
+	left: 150px;
+}
+
+
+
+
